@@ -6,5 +6,8 @@ public class GreetClass implements GreetInterface {
 	public String greet() {		
 		return "Welcome to the world of Java";
 	}
+	public void display();{
+		Systemout.println("Method in interrface");
+	}
 
 }
